@@ -1,6 +1,6 @@
 import { Body, Controller, Get, Param, Post, Put, Query } from '@nestjs/common';
 import { BookService } from './book.service';
-import { Book } from './schemas/book.shema';
+import { Book } from './schemas/book.schema';
 import { BookDto } from './dto/create-book.dto';
 import { updateBookDto } from './dto/update-book.dto';
 import { Query as ExpressQuery } from 'express-serve-static-core';
